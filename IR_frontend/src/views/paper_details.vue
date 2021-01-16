@@ -39,12 +39,12 @@
       >
         <source :src="videoSrc" type="video/mp4">
       </video>
-      <el-divider style="margin : 10px, 0;"></el-divider>  
+      <el-divider style="margin:10px, 0;"></el-divider>  
 
       <div class="Resource">
         <el-table
           :data="tableData"
-          style="width: 100%"
+          style="width: 100%;margin-left:3%;margin-right:3%"
           align="center">
           <el-table-column
             prop="resource"

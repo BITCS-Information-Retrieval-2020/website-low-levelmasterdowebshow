@@ -16,6 +16,7 @@ var Instance = axios.create()
 Vue.config.productionTip = false
 // Instance.defaults.baseURL = 'http://47.95.200.233:8080'
 Instance.defaults.baseURL = 'http://10.63.82.28:9001'
+// Instance.defaults.baseURL = 'http://192.168.43.107:9001'
 Vue.prototype.axios = Instance
 
 Vue.prototype.$qs = qs;

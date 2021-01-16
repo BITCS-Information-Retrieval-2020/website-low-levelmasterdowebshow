@@ -5,4 +5,4 @@ torch==1.7.1
 elasticsearch5==5.5.6
 transformers==4.1.1
 Django==3.1.5
-mdsearch==0.0.5
+mdsearch==0.0.9

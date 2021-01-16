@@ -4,9 +4,10 @@
       <el-menu
         default-active="activeIndex"
         class="el-menu-vertical-demo"
-
+        
         text-color="#000"
-        active-text-color="#000000">
+        active-text-color="#000000"
+        default-openeds=[2]>
         <!-- <el-menu-item index="1" @click="gotoPage(1)"> -->
         <el-menu-item index="1">
           <template slot="title">
@@ -20,8 +21,8 @@
             <span style="color:white">首页</span>
           </template>
           <el-menu-item-group>
-            <el-menu-item index="2" @click="gotoPage(2)">综合检索</el-menu-item>
-            <el-menu-item index="3" @click="gotoPage(3)">高级检索</el-menu-item>
+            <el-menu-item index="3" @click="gotoPage(2)">综合检索</el-menu-item>
+            <el-menu-item index="4" @click="gotoPage(3)">高级检索</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
       </el-menu>

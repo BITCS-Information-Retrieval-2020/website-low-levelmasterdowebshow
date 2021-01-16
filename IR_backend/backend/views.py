@@ -32,7 +32,8 @@ class Integrated_search(View):
             'title':False,
             'abstract':False,
             'paperContent':False,
-            'videoContent':False
+            'videoContent':False,
+            'authors':False
         }
         for it in dict(request.POST).keys():
             if it[:5] == 'match':
@@ -45,7 +46,8 @@ class Integrated_search(View):
                 'title':bool_match['title'],
                 'abstract':bool_match['abstract'],
                 'paperContent':bool_match['paperContent'],
-                'videoContent':bool_match['videoContent']
+                'videoContent':bool_match['videoContent'],
+                'authors':bool_match['authors']
             },
             'filter':{
                 'yearfrom':yearfrom,
@@ -107,7 +109,8 @@ class Advanced_search(View):
             'title':None,
             'abstract':None,
             'paperContent':None,
-            'videoContent':None
+            'videoContent':None,
+            'authors':None
         }
         for it in dict(request.POST).keys():
             if it[:5] == 'match':
@@ -122,7 +125,8 @@ class Advanced_search(View):
                 'title':string_match['title'],
                 'abstract':string_match['abstract'],
                 'paperContent':string_match['paperContent'],
-                'videoContent':string_match['videoContent']
+                'videoContent':string_match['videoContent'],
+                'authors':string_match['authors']
             },
             'filter':{
                 'yearfrom':yearfrom,

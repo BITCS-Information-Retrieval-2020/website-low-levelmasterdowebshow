@@ -38,16 +38,16 @@
   pip install mdsearch -i https://pypi.org/simple
 ```
 
-​ 修改settings.py中的配置，
+​	修改settings.py中的配置，
 
 ```
-	ALLOWED_HOSTS = ['10.63.82.28'] //ip地址
+  ALLOWED_HOSTS = ['10.63.82.28'] //ip地址
 ```
 
 ​	之后在当前项目的命令行中输入以下命令即可启动服务。
 
 ```
-	python manage.py runserver 10.63.82.28:9001 //ip:端口
+  python manage.py runserver 10.63.82.28:9001 //ip:端口
 ```
 
 - 前端部分：参考 [https://www.cnblogs.com/lgx5/p/10732016.html] 安装npm, vue框架，接着打开项目，运行以下命令安装相关依赖包。
@@ -68,19 +68,19 @@
 
 - 综合检索页
 
-  ![integrated-search](D:\low-level-master\screenshots\integrated-search.png)
+  ![integrated-search](README.assets/integrated-search.png)
 
 - 高级检索页
 
-  ![advanced-search](D:\low-level-master\screenshots\advanced-search.png)
+  ![advanced-search](README.assets/advanced-search.png)
 
 - 检索列表页
 
-  ![result](D:\low-level-master\screenshots\result.png)
+  ![result](README.assets/result.png)
 
 - 详细信息页
 
-  ![details](D:\low-level-master\screenshots\details.png)
+  ![details](README.assets/details.png)
 
 
 

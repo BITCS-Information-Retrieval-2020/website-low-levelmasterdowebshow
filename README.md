@@ -56,14 +56,10 @@
   npm install
   ```
 
-     可以在config/index.js中修改端口号。
-
-  ![image-20210116164226298](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210116164226298.png)
-
-  在命令行中输入以下命令便可启动项目。
+     可以在config/index.js中修改端口号，在命令行中输入以下命令便可启动项目。
 
   ```
-  npm run dev
+npm run dev
   ```
 
   
@@ -72,19 +68,19 @@
 
 - 综合检索页
 
-  ![image-20210116160428316](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210116160428316.png)
+  ![integrated-search](D:\low-level-master\screenshots\integrated-search.png)
 
 - 高级检索页
 
-  ![image-20210116161317223](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210116161317223.png)
+  ![advanced-search](D:\low-level-master\screenshots\advanced-search.png)
 
 - 检索列表页
 
-  ![image-20210116160459524](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210116160459524.png)
+  ![result](D:\low-level-master\screenshots\result.png)
 
 - 详细信息页
 
-  ![image-20210116161510773](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210116161510773.png)
+  ![details](D:\low-level-master\screenshots\details.png)
 
 
 

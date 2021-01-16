@@ -35,16 +35,16 @@
 - 后端部分：使用检索模块提供的python包进行开发，
 
 ```
-	pip install mdsearch -i https://pypi.org/simple
+  pip install mdsearch -i https://pypi.org/simple
 ```
 
-​		修改settings.py中的配置，
+​ 修改settings.py中的配置，
 
 ```
 	ALLOWED_HOSTS = ['10.63.82.28'] //ip地址
 ```
 
-​		之后在当前项目的命令行中输入以下命令即可启动服务。
+​	之后在当前项目的命令行中输入以下命令即可启动服务。
 
 ```
 	python manage.py runserver 10.63.82.28:9001 //ip:端口

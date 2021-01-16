@@ -52,15 +52,15 @@
 
 - 前端部分：参考 [https://www.cnblogs.com/lgx5/p/10732016.html] 安装npm, vue框架，接着打开项目，运行以下命令安装相关依赖包。
 
-  ```
+```
   npm install
-  ```
+```
 
-     可以在config/index.js中修改端口号，在命令行中输入以下命令便可启动项目。
+  可以在config/index.js中修改端口号，在命令行中输入以下命令便可启动项目。
 
-  ```
-npm run dev
-  ```
+```
+  npm run dev
+```
 
   
 

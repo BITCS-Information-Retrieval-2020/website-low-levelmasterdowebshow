@@ -161,10 +161,11 @@ class Advanced_search(View):
                     'publisher':it['publisher']  if 'publisher' in it.keys() else '',
                     'year':it['year']  if 'year' in it.keys() else '',
                     # 用于并发访问，标识这一用户
-                    'user_id':user_id
+                    # 'user_id':user_id
                 }
             )
             i += 1
+        res.insert(0, {'user_id': user_id})
         return HttpResponse(json.dumps(res))
 
 
